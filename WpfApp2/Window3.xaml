@@ -1,0 +1,13 @@
+﻿<Window x:Class="WpfApp2.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="Экран кладовщика" Height="450" Width="600">
+    <Grid>
+        <Button x:Name="Exit_button" Content="Выход" HorizontalAlignment="Left" Margin="469,10,0,0" VerticalAlignment="Top" Width="97" Click="Exit_button_Click" Background="DarkOrchid" Foreground="#FFFDFDFD" FontFamily="Sylfaen" FontSize="16" Height="36"/>
+
+    </Grid>
+</Window>
