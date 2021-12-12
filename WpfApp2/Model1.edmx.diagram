@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="786007781c2143e1a1460e27028e52c5" Name="Diagram1" ZoomLevel="16">
+        <EntityTypeShape EntityType="testModel.ActionType" Width="1.5" PointX="5.25" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="testModel.Admin" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="testModel.Conference" Width="1.5" PointX="0.75" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="testModel.Country" Width="1.5" PointX="3" PointY="22.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="testModel.Division" Width="1.5" PointX="3" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="testModel.Matchup" Width="1.5" PointX="3" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="testModel.MatchupDetail" Width="1.5" PointX="5.25" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="testModel.MatchupLog" Width="1.5" PointX="7.5" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="testModel.MatchupType" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="testModel.Pictures" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="testModel.Player" Width="1.5" PointX="5.25" PointY="22" IsExpanded="true" />
+        <EntityTypeShape EntityType="testModel.PlayerInTeam" Width="1.5" PointX="6" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="testModel.PlayerStatistics" Width="1.5" PointX="7.5" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="testModel.Position" Width="1.5" PointX="3" PointY="24.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="testModel.PostSeason" Width="1.5" PointX="3" PointY="17.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="testModel.Role" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="testModel.Season" Width="1.5" PointX="0.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="testModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="testModel.Team" Width="1.5" PointX="5.25" PointY="16.625" IsExpanded="true" />
+        <AssociationConnector Association="testModel.FK_MatchupLog_ActionType" ManuallyRouted="false" />
+        <AssociationConnector Association="testModel.FK_Admin_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="testModel.FK_Division_Conference" ManuallyRouted="false" />
+        <AssociationConnector Association="testModel.FK_Player_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="testModel.FK_Team_Division" ManuallyRouted="false" />
+        <AssociationConnector Association="testModel.FK_Matchup_MatchupType" ManuallyRouted="false" />
+        <AssociationConnector Association="testModel.FK_Matchup_Season" ManuallyRouted="false" />
+        <AssociationConnector Association="testModel.FK_Matchup_Season1" ManuallyRouted="false" />
+        <AssociationConnector Association="testModel.FK_Matchup_Team" ManuallyRouted="false" />
+        <AssociationConnector Association="testModel.FK_Matchup_Team1" ManuallyRouted="false" />
+        <AssociationConnector Association="testModel.FK_MatchupDetail_Matchup" ManuallyRouted="false" />
+        <AssociationConnector Association="testModel.FK_MatchupLog_Matchup" ManuallyRouted="false" />
+        <AssociationConnector Association="testModel.FK_MatchupLog_Player" ManuallyRouted="false" />
+        <AssociationConnector Association="testModel.FK_MatchupLog_Team" ManuallyRouted="false" />
+        <AssociationConnector Association="testModel.FK_Player_Position" ManuallyRouted="false" />
+        <AssociationConnector Association="testModel.FK_PlayerInTeam_Player" ManuallyRouted="false" />
+        <AssociationConnector Association="testModel.FK_PlayerStatistics_Player" ManuallyRouted="false" />
+        <AssociationConnector Association="testModel.FK_PlayerInTeam_Season" ManuallyRouted="false" />
+        <AssociationConnector Association="testModel.FK_PlayerInTeam_Team" ManuallyRouted="false" />
+        <AssociationConnector Association="testModel.FK_PlayerStatistics_Team" ManuallyRouted="false" />
+        <AssociationConnector Association="testModel.FK__Team__TeamId__09A971A2" ManuallyRouted="false" />
+        <AssociationConnector Association="testModel.FK_PostSeason_Season" ManuallyRouted="false" />
+        <AssociationConnector Association="testModel.FK_Team_PostSeason" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

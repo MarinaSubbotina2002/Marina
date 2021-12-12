@@ -1,0 +1,13 @@
+﻿<Window x:Class="WpfApp2.Window4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="Экран директора" Height="450" Width="600">
+    <Grid>
+        <Button x:Name="Exit_button" Content="Выход" HorizontalAlignment="Left" Margin="462,26,0,0" VerticalAlignment="Top" Width="103" Background="DarkOrchid" Foreground="White" FontFamily="Sylfaen" FontSize="16" Height="35" Click="Exit_button_Click"/>
+
+    </Grid>
+</Window>
