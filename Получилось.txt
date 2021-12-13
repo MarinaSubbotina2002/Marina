@@ -1,0 +1,194 @@
+User@WIN-HOE3H78BBIH MINGW64 ~/Desktop/Проект
+$ git init
+Initialized empty Git repository in C:/Users/User/Desktop/Проект/.git/
+
+User@WIN-HOE3H78BBIH MINGW64 ~/Desktop/Проект (master)
+$ git add *
+
+User@WIN-HOE3H78BBIH MINGW64 ~/Desktop/Проект (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   WpfApp2.sln
+
+
+User@WIN-HOE3H78BBIH MINGW64 ~/Desktop/Проект (master)
+$ git commit -m "first commit"
+[master (root-commit) 518da80] first commit
+ 1 file changed, 25 insertions(+)
+ create mode 100644 WpfApp2.sln
+
+User@WIN-HOE3H78BBIH MINGW64 ~/Desktop/Проект (master)
+$ git remote add origin https://github.com/MarinaSubbotina2002/Marina.git
+
+User@WIN-HOE3H78BBIH MINGW64 ~/Desktop/Проект (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 663 bytes | 331.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/MarinaSubbotina2002/Marina.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+User@WIN-HOE3H78BBIH MINGW64 ~/Desktop/Проект (master)
+$ git branch second
+
+User@WIN-HOE3H78BBIH MINGW64 ~/Desktop/Проект (master)
+$ git checkout second
+Switched to branch 'second'
+
+User@WIN-HOE3H78BBIH MINGW64 ~/Desktop/Проект (second)
+$ git init
+Reinitialized existing Git repository in C:/Users/User/Desktop/Проект/.git/
+
+User@WIN-HOE3H78BBIH MINGW64 ~/Desktop/Проект (second)
+$ git add *
+
+User@WIN-HOE3H78BBIH MINGW64 ~/Desktop/Проект (second)
+$ git commit -m "first commit"
+[second 180c356] first commit
+ 116 files changed, 63309 insertions(+)
+ create mode 100644 WpfApp2/ActionType.cs
+ create mode 100644 WpfApp2/Admin.cs
+ create mode 100644 WpfApp2/App.config
+ create mode 100644 WpfApp2/App.xaml
+ create mode 100644 WpfApp2/App.xaml.cs
+ create mode 100644 WpfApp2/Conference.cs
+ create mode 100644 WpfApp2/Country.cs
+ create mode 100644 WpfApp2/Division.cs
+ create mode 100644 WpfApp2/MainWindow.xaml
+ create mode 100644 WpfApp2/MainWindow.xaml.cs
+ create mode 100644 WpfApp2/Matchup.cs
+ create mode 100644 WpfApp2/MatchupDetail.cs
+ create mode 100644 WpfApp2/MatchupLog.cs
+ create mode 100644 WpfApp2/MatchupType.cs
+ create mode 100644 WpfApp2/Model1.Context.cs
+ create mode 100644 WpfApp2/Model1.Context.tt
+ create mode 100644 WpfApp2/Model1.Designer.cs
+ create mode 100644 WpfApp2/Model1.cs
+ create mode 100644 WpfApp2/Model1.edmx
+ create mode 100644 WpfApp2/Model1.edmx.diagram
+ create mode 100644 WpfApp2/Model1.tt
+ create mode 100644 WpfApp2/Pictures.cs
+ create mode 100644 WpfApp2/Player.cs
+ create mode 100644 WpfApp2/PlayerInTeam.cs
+ create mode 100644 WpfApp2/PlayerStatistics.cs
+ create mode 100644 WpfApp2/Position.cs
+ create mode 100644 WpfApp2/PostSeason.cs
+ create mode 100644 WpfApp2/Properties/AssemblyInfo.cs
+ create mode 100644 WpfApp2/Properties/Resources.Designer.cs
+ create mode 100644 WpfApp2/Properties/Resources.resx
+ create mode 100644 WpfApp2/Properties/Settings.Designer.cs
+ create mode 100644 WpfApp2/Properties/Settings.settings
+ create mode 100644 "WpfApp2/Properties/icons8-\320\277\320\276\320\264\321\202\320\262\320\265\321\200\320\266\320\264\320\265\320\275\320\275\320\260\321\217-\321\203\321\207\320\265\321\202\320\275\320\260\321\217-\320\267\320\260\320\277\320\270\321\201\321\214-32.png"
+ create mode 100644 "WpfApp2/Properties/icons8-\321\210\320\270\321\204\321\200\320\276\320\262\320\260\320\275\320\270\320\265-\320\264\320\260\320\275\320\275\321\213\321\205-32.png"
+ create mode 100644 WpfApp2/Resourse/1.jpg
+ create mode 100644 WpfApp2/Resourse/10.jpg
+ create mode 100644 WpfApp2/Resourse/11.jpg
+ create mode 100644 WpfApp2/Resourse/12.jpg
+ create mode 100644 WpfApp2/Resourse/13.jpg
+ create mode 100644 WpfApp2/Resourse/14.jpg
+ create mode 100644 WpfApp2/Resourse/15.jpg
+ create mode 100644 WpfApp2/Resourse/16.jpg
+ create mode 100644 WpfApp2/Resourse/17.jpg
+ create mode 100644 WpfApp2/Resourse/18.jpg
+ create mode 100644 WpfApp2/Resourse/2.jpg
+ create mode 100644 WpfApp2/Resourse/3.jpg
+ create mode 100644 WpfApp2/Resourse/4.jpg
+ create mode 100644 WpfApp2/Resourse/5.jpg
+ create mode 100644 WpfApp2/Resourse/6.jpg
+ create mode 100644 WpfApp2/Resourse/7.jpg
+ create mode 100644 WpfApp2/Resourse/8.jpg
+ create mode 100644 WpfApp2/Resourse/9.jpg
+ create mode 100644 WpfApp2/Role.cs
+ create mode 100644 WpfApp2/Season.cs
+ create mode 100644 WpfApp2/Team.cs
+ create mode 100644 WpfApp2/Window1.xaml
+ create mode 100644 WpfApp2/Window1.xaml.cs
+ create mode 100644 WpfApp2/Window2.xaml
+ create mode 100644 WpfApp2/Window2.xaml.cs
+ create mode 100644 WpfApp2/Window3.xaml
+ create mode 100644 WpfApp2/Window3.xaml.cs
+ create mode 100644 WpfApp2/Window4.xaml
+ create mode 100644 WpfApp2/Window4.xaml.cs
+ create mode 100644 WpfApp2/WpfApp2.csproj
+ create mode 100644 WpfApp2/bin/Debug/EntityFramework.SqlServer.dll
+ create mode 100644 WpfApp2/bin/Debug/EntityFramework.SqlServer.xml
+ create mode 100644 WpfApp2/bin/Debug/EntityFramework.dll
+ create mode 100644 WpfApp2/bin/Debug/EntityFramework.xml
+ create mode 100644 WpfApp2/bin/Debug/WpfApp2.exe
+ create mode 100644 WpfApp2/bin/Debug/WpfApp2.exe.config
+ create mode 100644 WpfApp2/bin/Debug/WpfApp2.pdb
+ create mode 100644 WpfApp2/bin/Debug/ru/EntityFramework.resources.dll
+ create mode 100644 WpfApp2/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs
+ create mode 100644 WpfApp2/obj/Debug/App.g.cs
+ create mode 100644 WpfApp2/obj/Debug/App.g.i.cs
+ create mode 100644 WpfApp2/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+ create mode 100644 WpfApp2/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+ create mode 100644 WpfApp2/obj/Debug/MainWindow.baml
+ create mode 100644 WpfApp2/obj/Debug/MainWindow.g.cs
+ create mode 100644 WpfApp2/obj/Debug/MainWindow.g.i.cs
+ create mode 100644 WpfApp2/obj/Debug/TempPE/DataSet1.Designer.cs.dll
+ create mode 100644 WpfApp2/obj/Debug/TempPE/Model1.Context.cs.dll
+ create mode 100644 WpfApp2/obj/Debug/TempPE/Model1.Designer.cs.dll
+ create mode 100644 WpfApp2/obj/Debug/TempPE/Model1.cs.dll
+ create mode 100644 WpfApp2/obj/Debug/TempPE/Properties.Resources.Designer.cs.dll
+ create mode 100644 WpfApp2/obj/Debug/Window1.baml
+ create mode 100644 WpfApp2/obj/Debug/Window1.g.cs
+ create mode 100644 WpfApp2/obj/Debug/Window1.g.i.cs
+ create mode 100644 WpfApp2/obj/Debug/Window2.baml
+ create mode 100644 WpfApp2/obj/Debug/Window2.g.cs
+ create mode 100644 WpfApp2/obj/Debug/Window2.g.i.cs
+ create mode 100644 WpfApp2/obj/Debug/Window3.baml
+ create mode 100644 WpfApp2/obj/Debug/Window3.g.cs
+ create mode 100644 WpfApp2/obj/Debug/Window3.g.i.cs
+ create mode 100644 WpfApp2/obj/Debug/Window4.baml
+ create mode 100644 WpfApp2/obj/Debug/Window4.g.cs
+ create mode 100644 WpfApp2/obj/Debug/Window4.g.i.cs
+ create mode 100644 WpfApp2/obj/Debug/WpfApp2.Properties.Resources.resources
+ create mode 100644 WpfApp2/obj/Debug/WpfApp2.csproj.AssemblyReference.cache
+ create mode 100644 WpfApp2/obj/Debug/WpfApp2.csproj.CoreCompileInputs.cache
+ create mode 100644 WpfApp2/obj/Debug/WpfApp2.csproj.FileListAbsolute.txt
+ create mode 100644 WpfApp2/obj/Debug/WpfApp2.csproj.GenerateResource.cache
+ create mode 100644 WpfApp2/obj/Debug/WpfApp2.exe
+ create mode 100644 WpfApp2/obj/Debug/WpfApp2.g.resources
+ create mode 100644 WpfApp2/obj/Debug/WpfApp2.pdb
+ create mode 100644 WpfApp2/obj/Debug/WpfApp2_Content.g.cs
+ create mode 100644 WpfApp2/obj/Debug/WpfApp2_Content.g.i.cs
+ create mode 100644 WpfApp2/obj/Debug/WpfApp2_MarkupCompile.cache
+ create mode 100644 WpfApp2/obj/Debug/WpfApp2_MarkupCompile.i.cache
+ create mode 100644 WpfApp2/obj/Debug/WpfApp2_MarkupCompile.i.lref
+ create mode 100644 WpfApp2/obj/Debug/WpfApp2_MarkupCompile.lref
+ create mode 100644 WpfApp2/obj/Debug/edmxResourcesToEmbed/Model1.csdl
+ create mode 100644 WpfApp2/obj/Debug/edmxResourcesToEmbed/Model1.msl
+ create mode 100644 WpfApp2/obj/Debug/edmxResourcesToEmbed/Model1.ssdl
+ create mode 100644 WpfApp2/packages.config
+ create mode 100644 WpfApp2/sysdiagrams.cs
+
+User@WIN-HOE3H78BBIH MINGW64 ~/Desktop/Проект (second)
+$ git remote add origin https://github.com/MarinaSubbotina2002/Marina.git
+error: remote origin already exists.
+
+User@WIN-HOE3H78BBIH MINGW64 ~/Desktop/Проект (second)
+$ git push -u origin second
+Enumerating objects: 119, done.
+Counting objects: 100% (119/119), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (113/113), done.
+Writing objects: 100% (118/118), 3.01 MiB | 1.03 MiB/s, done.
+Total 118 (delta 38), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (38/38), done.
+remote:
+remote: Create a pull request for 'second' on GitHub by visiting:
+remote:      https://github.com/MarinaSubbotina2002/Marina/pull/new/second
+remote:
+To https://github.com/MarinaSubbotina2002/Marina.git
+ * [new branch]      second -> second
+Branch 'second' set up to track remote branch 'second' from 'origin'.
